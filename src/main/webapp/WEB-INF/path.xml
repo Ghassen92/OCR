@@ -1,0 +1,4 @@
+<init-param>
+      <param-name>configPath</param-name>
+      <param-value>filter.properties</param-value>
+   </init-param>

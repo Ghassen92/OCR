@@ -6,12 +6,13 @@
   <packaging>war</packaging>
    
   <dependencies>
-	  <dependency>
-		    <groupId>io.swagger</groupId>
-		    <artifactId>swagger-jaxrs</artifactId>
-		    <version>1.5.0</version>
-		 </dependency>
-	 <dependency> 
+	<!-- https://mvnrepository.com/artifact/io.swagger/swagger-jaxrs -->
+	<dependency>
+	    <groupId>io.swagger</groupId>
+	    <artifactId>swagger-jaxrs</artifactId>
+	    <version>1.5.13</version>
+	</dependency>
+	<dependency> 
 	    <groupId>org.glassfish.jersey.containers</groupId>
 	    <artifactId>jersey-container-servlet</artifactId>
 	    <version>2.26-b01</version>
@@ -45,6 +46,8 @@
 	    <version>3.3.0</version>
 	</dependency>
 	 
+	 	  
+		 
 	</dependencies>
   
 </project>
